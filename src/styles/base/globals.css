@@ -1,0 +1,29 @@
+:root {
+   --fonts: #E6F99D;
+}
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+*, *::before, *::after {
+   box-sizing: inherit;
+}
+body {
+   background-image: url('../../assets/img/background.svg');
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+
+   height: 100vh;
+   max-height: 100vh;
+   overflow: hidden;
+   font-size: 1.6rem;
+   color: var(--fonts);
+}
+img {
+   max-width: 100%;
+}
+.container {
+   max-width: 90%;
+   margin: 0 auto;
+}

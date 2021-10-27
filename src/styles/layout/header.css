@@ -1,0 +1,9 @@
+.header {
+   margin: 0 auto;
+   padding: 5rem 0;
+   display: flex;
+   justify-content: space-around;
+} 
+.header__logo {
+   max-width: 40%;
+}
