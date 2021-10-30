@@ -1,0 +1,12 @@
+.header {
+   margin: 6rem 2.5rem;
+   // padding: 0 2rem;
+   display: flex;
+   justify-content: space-between;
+   .header__logo {
+      max-width: 45%;
+   }
+   .header__logo-avatar {
+      max-width: 90%;
+   }
+}

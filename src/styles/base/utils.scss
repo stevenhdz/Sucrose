@@ -1,0 +1,13 @@
+.fl {
+   display: flex;
+   justify-content: space-between;
+}
+.container {
+   max-width: 80%;
+   margin: 0 auto;
+}
+.shadow {
+   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+   -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+   -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+}

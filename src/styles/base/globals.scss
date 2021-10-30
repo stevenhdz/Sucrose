@@ -1,6 +1,3 @@
-:root {
-   --fonts: #E6F99D;
-}
 html {
    box-sizing: border-box;
    font-size: 62.5%;
@@ -9,7 +6,7 @@ html {
    box-sizing: inherit;
 }
 body {
-   background-image: url('../../assets/img/background.svg');
+   background-image: url('../../src/assets/img/background.svg');
    background-size: cover;
    background-position: center center;
    background-repeat: no-repeat;
@@ -18,12 +15,9 @@ body {
    max-height: 100vh;
    overflow: hidden;
    font-size: 1.6rem;
-   color: var(--fonts);
+   color: $fontsColor;
+   font-family: Arial, Helvetica, sans-serif;
 }
 img {
    max-width: 100%;
-}
-.container {
-   max-width: 90%;
-   margin: 0 auto;
 }

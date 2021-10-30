@@ -1,0 +1,42 @@
+.main {
+   background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(135deg,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   box-shadow: 14.65px 17.58px 29.29px 0px rgba(0, 0, 0, 0.10);
+   backdrop-filter: blur( 20.51px );
+   -webkit-backdrop-filter: blur( 20.51px );
+   border: 0.3px solid rgba(255,255,255,0.15);
+   
+   font-size: 1.5rem;
+   padding: 0 4rem;
+   border-radius: 0.62rem;
+   overflow: auto;
+   height: 70%;
+   text-align: center;
+   font-weight: bold;
+   .main--index__title {
+      font-size: 3.5rem;
+      margin: 3.5rem 0 0 0;
+   }
+   .main--index__description {
+      margin: 0;
+   }
+   .buttons-container {
+      margin-top: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem;
+      gap: 2rem;
+
+      .buttons-container__button {
+         padding: 2rem 1.5rem;
+         background-color: $buttonsBackground;
+         border-radius: 2rem;
+         text-decoration: none;
+         font-size: 2.4rem;
+         color: $black;
+         font-weight: bold;
+      }
+   }
+}
