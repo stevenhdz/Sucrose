@@ -11,14 +11,18 @@
    padding: 0 4rem;
    border-radius: 0.62rem;
    overflow: auto;
-   height: 70%;
+   height: 75%;
    text-align: center;
    font-weight: bold;
-   .main--index__title {
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: space-evenly;
+   .main__header__title {
       font-size: 3.5rem;
-      margin: 3.5rem 0 0 0;
+      margin: 3rem 0 1rem 0;
    }
-   .main--index__description {
+   .main__header__description {
       margin: 0;
    }
    .buttons-container {
@@ -34,9 +38,30 @@
          background-color: $buttonsBackground;
          border-radius: 2rem;
          text-decoration: none;
-         font-size: 2.4rem;
+         font-size: 1.8rem;
          color: $black;
          font-weight: bold;
+      }
+   }
+}
+@include media(768px) {
+   .main {
+      height: 70%;
+   }
+}
+@include media(1200px) {
+   .main {
+      padding: 5rem;
+      font-size: 2rem;
+      .main__header__title {
+         font-size: 5rem;
+         margin: 3rem 0 1rem 0;
+      }
+      .buttons-container {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: repeat(2, 1fr);
+         gap: 4rem;
       }
    }
 }

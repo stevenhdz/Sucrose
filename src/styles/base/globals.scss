@@ -18,6 +18,13 @@ body {
    color: $fontsColor;
    font-family: Arial, Helvetica, sans-serif;
 }
+@include media(1200px) {
+   body {
+      height: unset;
+      max-height: unset;
+      overflow: unset;
+   }
+}
 img {
    max-width: 100%;
 }

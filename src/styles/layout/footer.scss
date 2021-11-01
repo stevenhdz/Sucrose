@@ -6,3 +6,9 @@
     text-align: center;
     color: $white;
 }
+@include media(768px) {
+   .footer {
+      position: static;
+      margin: 3rem 0;
+   }
+}

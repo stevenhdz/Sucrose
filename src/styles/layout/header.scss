@@ -1,6 +1,5 @@
 .header {
-   margin: 6rem 2.5rem;
-   // padding: 0 2rem;
+   margin: 2.5rem;
    display: flex;
    justify-content: space-between;
    .header__logo {
@@ -8,5 +7,10 @@
    }
    .header__logo-avatar {
       max-width: 90%;
+   }
+}
+@include media(414px) {
+   .header {
+      margin: 5.5rem;
    }
 }
